@@ -246,6 +246,12 @@
         <span class="btn-title">Worksheet Digital</span>
         <span class="sub-text">File digital siap unduh. Bebas ongkir untuk Belajar Anak.</span>
       </a>
+
+      <!-- Tombol 4 (Baru - Grup WhatsApp) -->
+      <a href="#" id="link-btn4" class="cta-button is-loading" target="_blank" rel="noopener noreferrer">
+        <span class="btn-title">Gabung Grup WhatsApp</span>
+        <span class="sub-text">Info promo, update produk, dan diskusi seru.</span>
+      </a>
     </nav>
 
     <!-- Bagian 3: Footer -->
@@ -271,6 +277,8 @@
         if (links.btn1) document.getElementById('link-btn1').href = links.btn1;
         if (links.btn2) document.getElementById('link-btn2').href = links.btn2;
         if (links.btn3) document.getElementById('link-btn3').href = links.btn3;
+        // Tambahan untuk mengambil link btn4 dari spreadsheet jika ada
+        if (links.btn4) document.getElementById('link-btn4').href = links.btn4; 
         if (links.btnWA) document.getElementById('link-btnWA').href = links.btnWA;
       }
     }
